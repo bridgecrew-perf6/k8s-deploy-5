@@ -1,11 +1,11 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
- name: static1-ingress
+ name: static-ingress
  namespace: static1
 spec:
  rules:
- - host: static1.joshna.xyz
+ - host: static.joshna.xyz
    http:
      paths:
      - path:
