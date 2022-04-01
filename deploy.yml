@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: static-deployment
-  namespace: static
+  namespace: static1
 spec:
   selector:
     matchLabels:
