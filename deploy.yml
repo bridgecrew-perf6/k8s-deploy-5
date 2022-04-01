@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: static
-        image: sha256:529c8fe3eb4aae1362dd5c6aebffb9cfe0792ac10cdd53dfbf20f0391d02fe98:latest
+        image: 274401088258.dkr.ecr.us-west-2.amazonaws.com/static:18
         ports:
         - containerPort: 80
