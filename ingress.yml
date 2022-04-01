@@ -1,14 +1,14 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
- name: static-ingress
- namespace: static
+ name: static1-ingress
+ namespace: static1
 spec:
  rules:
- - host: static.joshna.xyz
+ - host: static1.joshna.xyz
    http:
      paths:
      - path:
        backend:
-         serviceName: static-svc
+         serviceName: static1-svc
          servicePort: 80
