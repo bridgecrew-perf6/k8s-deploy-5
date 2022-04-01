@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: static-svc
+  name: static1-svc
   namespace: static
 spec:
   selector:
-    app: static-dept
+    app: static1-dept
   ports:
   - port: 80
     targetPort: 80
